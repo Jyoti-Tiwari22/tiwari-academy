@@ -17,7 +17,7 @@ const Card = (props) => {
                         <div className="ticket__content">
                             <h5 className="card-title font-weight-bold">{props.title}</h5>
                             <p className="card-text ">{props.text}</p>
-                            <NavLink to="#" className="btn btn-primary">Go somewhere</NavLink>
+                            <NavLink to="#" className="btn-get-started">Go somewhere</NavLink>
                         </div>
                     </div>
                 </div>
